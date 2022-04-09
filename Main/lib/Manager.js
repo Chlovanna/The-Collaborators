@@ -8,3 +8,5 @@ class Manager extends Employee {
   getRole = () => "Manager";
   getOfficeNumber = () => this.officeNumber;
 }
+
+module.exports = Manager;
