@@ -33,7 +33,7 @@ const generateProfile = (profile) => {
         <div class="row team-area col-12 d-flex justify-content-center">
         <div class="card-header">
        <h2 class="card-title">Name:${engineer.name} </h2>
-       <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Engineer</i></h3>
+       <h3 class="card-title"><i class="fas fa-glass-glasses mr-2"></i>Engineer</i></h3>
       
          <ul class="list-group list-group-flush">
           <li class="list-group-item">ID: ${engineer.id}</li>
@@ -55,9 +55,8 @@ const generateProfile = (profile) => {
         <div class="row team-area col-12 d-flex justify-content-center">
         <div class="card-header">
        <h2 class="card-title">Name:${intern.name} </h2>
-       <h3 class="card-title"><i class="fas fa-mug-hot mr-2"></i>Intern</i></h3>
-       
-          <ul class="list-group list-group-flush">
+       <h3 class="card-title"><i class="fas fa-user-graduate mr-2"></i>Intern</i></h3>
+           <ul class="list-group list-group-flush">
           <li class="list-group-item">ID: ${intern.id}</li>
           <li class="list-group-item">Email: <span id="email"><a href="mailto:${intern.email}">${intern.email}</a></span></li>
           <li class="list-group-item">School: ${intern.school}</li>

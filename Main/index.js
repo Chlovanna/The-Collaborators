@@ -31,7 +31,7 @@ const promptCard = () => {
       else if (card === "add an intern") promptIntern();
       // else generateHTML();
       else {
-        fs.writeFile("./team.html", generateHTML(teamMembers), (err) => {
+        fs.writeFile("./output/team.html", generateHTML(teamMembers), (err) => {
           if (err) throw new Error(err);
         });
       }
