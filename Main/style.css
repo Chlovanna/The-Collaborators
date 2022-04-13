@@ -1,0 +1,26 @@
+header {
+    padding: 10px;
+    display: felx;
+    justify-content: center;
+    font-size: 3em;
+    margin: 15px;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+}
+
+.card{
+    padding: 10px;
+    margin: 15px;
+}
+
+.list-group-item {
+    white-space: nowrap;
+    overflow: visible;
+
+}
