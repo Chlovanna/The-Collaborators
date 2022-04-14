@@ -1,0 +1,45 @@
+* {
+    /* border: 2px solid red; */
+}
+
+.jumbotron {
+    color:saddlebrown;
+    background-color: wheat;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    margin: 15px;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    
+}
+
+.container{
+    width: 20rem;
+    padding: 10px;
+    margin: 15px;
+}
+h2, h3{
+    color: purple;
+    background-color: rgb(245, 236, 225);
+  
+   
+}
+
+.list-group {
+    font:brown;
+  
+}
+
+.list-group-item {
+    white-space: nowrap;
+    overflow: visible;
+
+}
