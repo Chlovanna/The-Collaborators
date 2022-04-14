@@ -3,6 +3,7 @@ const generateProfile = (profile) => {
 
   const html = [];
 
+  // created manager HTML card
   const generateManager = (manager) => {
     console.log(manager);
     let managerHtml = ` 
@@ -25,6 +26,7 @@ const generateProfile = (profile) => {
       `;
     html.push(managerHtml);
   };
+  // created engineer HTML card
   const generateEngineer = (engineer) => {
     console.log(engineer);
     let engineerHtml = ` 
@@ -33,7 +35,7 @@ const generateProfile = (profile) => {
         <div class="row team-area col-12 d-flex justify-content-center">
         <div class="card-header">
        <h2 class="card-title">Name:${engineer.name} </h2>
-       <h3 class="card-title"><i class="fas fa-glass-glasses mr-2"></i>Engineer</i></h3>
+       <h3 class="card-title"><i class="fas fa-glasses mr-2"></i>Engineer</i></h3>
       
          <ul class="list-group list-group-flush">
           <li class="list-group-item">ID: ${engineer.id}</li>
@@ -47,6 +49,7 @@ const generateProfile = (profile) => {
       `;
     html.push(engineerHtml);
   };
+  // created Intern HTML card
   const generateIntern = (intern) => {
     console.log(intern);
     let internHtml = ` 
@@ -68,7 +71,7 @@ const generateProfile = (profile) => {
       `;
     html.push(internHtml);
   };
-
+//  created a for loop for all cards
   for (let i = 0; i < profile.length; i++) {
     if (profile[i].getRole() === "Manager") {
       generateManager(profile[i]);
@@ -98,7 +101,7 @@ module.exports = (profile) => {
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
           <script src="https://kit.fontawesome.com/1e0a13a89f.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="../../Assets/style.css">
   </head>
   
   <body>
