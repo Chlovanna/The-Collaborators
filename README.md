@@ -1,5 +1,5 @@
 # The-Collaborators
-- Object-Oriented Programming Challenge: Team Profile Generator
+Object-Oriented Programming Challenge: Team Profile Generator
 
 # User Story
 AS A manager
