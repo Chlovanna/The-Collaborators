@@ -117,7 +117,7 @@ const promptEngineer = () => {
         validate: (engineerName) => {
           if (engineerName) {
             return true;
-          } else {
+          } else {b
             console.log("Enter your name");
             return false;
           }
