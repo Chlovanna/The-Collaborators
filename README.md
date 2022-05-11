@@ -1,5 +1,4 @@
 # The-Collaborators
-<<<<<<< HEAD
 - Object-Oriented Programming Challenge: Team Profile Generator
 
 # User Story
@@ -27,11 +26,7 @@ SO THAT I have quick access to their emails and GitHub profiles
 - THEN I exit the application, and the HTML is generated
 # Mock-up
 image.png
-=======
-Object-Oriented Programming Challenge: Team Profile Generator
-# Requirements
-![image](https://user-images.githubusercontent.com/97860472/163306061-48d3bc55-ce01-4ffc-bf3f-2237b7c0cf55.png)
->>>>>>> 8b35bc1c6cbcd7b4f6efdf54df0dedb5b7050036
+
 # A demonstration video
 https://watch.screencastify.com/v/gFgH1jUlVsDHoAMIbByp
 # Contributor
